@@ -1,0 +1,15 @@
+.body {
+    padding: 20px;
+}
+
+.title-bar,
+.text-bar {
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
