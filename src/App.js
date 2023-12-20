@@ -3,7 +3,7 @@ import Header from './Header/Header';
 import Body from './Body/Body';
 import SideBar from './SideBar/SideBar';
 import Footer from './Footer/Footer';
-
+import axios from 'axios';
 
 const App = () => {
     return (

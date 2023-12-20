@@ -4,8 +4,7 @@ import './SideBar.css';
 const SideBar = () => {
     return (
         <aside className="sidebar">
-            <button>Save</button>
-            <button>Load</button>
+
         </aside>
     );
 };
