@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <footer className="footer">
-            <p>&copy; 2023 Note Taking App</p>
+            <p>Repo:https://github.com/MoustAhmed/TaskManagement</p>
         </footer>
     );
 };
