@@ -34,6 +34,19 @@ const Body = () => {
             });
     };
     
+    const deleteNote = (sno) => {
+        axios.post('http://localhost/NotesApp/note-taking-app/server/delete.php', { sno })
+            .then(() => {
+                return axios.get('http://localhost/NotesApp/note-taking-app/server/read.php');
+            })
+            .then((response) => {
+                setNotes(response.data);
+            })
+            .catch((error) => {
+                console.error(`Error deleting note: ${error}`);
+            });
+    };
+    
     return (
        <body>
       <div className="container">
@@ -53,19 +66,21 @@ const Body = () => {
                     </div>
                 </div>
             </div>
-     <div class ="container ">
-        <div class = "col-lg-10">
-            <h1>Your Notes </h1>
-            <div class="card my-3">
-            <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary mx-2">Edit</a>
-                <a href="#" class="btn btn-danger">Delete</a>
+            <div className="container">
+                <div className="col-lg-10">
+                    <h1>Your Notes</h1>
+                    {notes.map((note) => (
+                        <div key={note.sno} className="card my-3">
+                            <div className="card-body">
+                                <h5 className="card-title">{note.title}</h5>
+                                <p className="card-text">{note.description}</p>
+                                <button className="btn btn-primary mx-2">Edit</button>
+                                <button onClick={() => deleteNote(note.sno)} className="btn btn-danger">Delete</button>
+                            </div>
+                        </div>
+                    ))}
+                </div>
             </div>
-            </div>
-        </div>
-     </div>
      </body>
             
       

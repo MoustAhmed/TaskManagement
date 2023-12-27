@@ -1,4 +1,8 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type");
+
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -10,15 +14,23 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT sno, title, description FROM notes";
+$sql = "SELECT sno, title, description FROM notes WHERE title IS NOT NULL AND description IS NOT NULL";
+
 $result = $conn->query($sql);
+
+$notes = array();
 
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-        echo "sno: " . $row["sno"]. " - Title: " . $row["title"]. " - Description: " . $row["description"]. "<br>";
+        $notes[] = array(
+            'sno' => $row["sno"],
+            'title' => $row["title"],
+            'description' => $row["description"]
+        );
     }
-} else {
-    echo "0 results";
 }
+
+echo json_encode($notes);
+
 $conn->close();
 ?>
