@@ -81,6 +81,10 @@ Follow these steps to run the project locally:
 7. **Open the application in your browser:**
 
    Open [http://localhost:3000](http://localhost:3000) to view the Note Taking Web App.
+   # Example:
+   Front End ![image](https://github.com/MoustAhmed/TaskManagement/assets/121663630/eb9650cd-4914-43af-9012-eb356648e658)
+   PHP: ![image](https://github.com/MoustAhmed/TaskManagement/assets/121663630/5f28858d-0001-478a-b630-d019e4a8bc91)
+
 
 ## Contributing
 
