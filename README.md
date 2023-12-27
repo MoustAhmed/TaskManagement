@@ -1,6 +1,10 @@
 # Note Taking Web App
 
 This is a simple Note Taking Web App created using React, JavaScript, CSS, PHP, and MySQL.
+# Example:
+Front End ![](https://github.com/MoustAhmed/TaskManagement/blob/main/ezgif-2-0c90393e97.gif)
+   ![](https://github.com/MoustAhmed/TaskManagement/blob/main/ezgif-2-4cd3efbe32.gif)
+PHP: 
 
 ## Table of Contents
 
@@ -81,10 +85,7 @@ Follow these steps to run the project locally:
 7. **Open the application in your browser:**
 
    Open [http://localhost:3000](http://localhost:3000) to view the Note Taking Web App.
-   # Example:
-   Front End ![](https://github.com/MoustAhmed/TaskManagement/blob/main/ezgif-2-0c90393e97.gif)
-   
-   PHP: ![](https://github.com/MoustAhmed/TaskManagement/blob/main/ezgif-2-4cd3efbe32.gif)
+
 
 
 ## Contributing
