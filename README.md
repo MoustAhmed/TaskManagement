@@ -2,7 +2,8 @@
 
 This is a simple Note Taking Web App created using React, JavaScript, CSS, PHP, and MySQL.
 # Example:
-Front End ![](https://github.com/MoustAhmed/TaskManagement/blob/main/ezgif-2-0c90393e97.gif)
+![](https://github.com/MoustAhmed/TaskManagement/blob/main/ezgif-2-0c90393e97.gif)
+
 PHP:![](https://github.com/MoustAhmed/TaskManagement/blob/main/ezgif-2-4cd3efbe32.gif)
  
 
