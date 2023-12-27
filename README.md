@@ -82,8 +82,9 @@ Follow these steps to run the project locally:
 
    Open [http://localhost:3000](http://localhost:3000) to view the Note Taking Web App.
    # Example:
-   Front End ![image](https://github.com/MoustAhmed/TaskManagement/assets/121663630/eb9650cd-4914-43af-9012-eb356648e658)
-   PHP: ![image](https://github.com/MoustAhmed/TaskManagement/assets/121663630/5f28858d-0001-478a-b630-d019e4a8bc91)
+   Front End [![image](https://github.com/MoustAhmed/TaskManagement/assets/121663630/eb9650cd-4914-43af-9012-eb356648e658)](https://github.com/MoustAhmed/TaskManagement/blob/main/ezgif-2-0c90393e97.gif)
+   
+   PHP: [![image](https://github.com/MoustAhmed/TaskManagement/assets/121663630/5f28858d-0001-478a-b630-d019e4a8bc91)](https://github.com/MoustAhmed/TaskManagement/blob/main/ezgif-2-4cd3efbe32.gif)
 
 
 ## Contributing
