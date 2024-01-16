@@ -1,6 +1,6 @@
 # Note Taking Web App
 
-This is a simple Note Taking Web App created using React, JavaScript, CSS, PHP, and MySQL.
+This is a simple Note Taking Web App created using React, JavaScript, CSS, PHP, SQL with MySQL as the database
 # Example:
 ![](https://github.com/MoustAhmed/TaskManagement/blob/main/ezgif-2-0c90393e97.gif)
 
