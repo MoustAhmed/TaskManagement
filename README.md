@@ -2,7 +2,7 @@
 
 This is a simple Note Taking Web App created using React, JavaScript, CSS, PHP, SQL with MySQL as the database
 
-![image](https://github.com/MoustAhmed/TaskManagement/assets/121663630/73d450e6-4e9e-47a3-a8b1-cbd76daa7dc9)
+![](https://github.com/MoustAhmed/TaskManagement/assets/121663630/73d450e6-4e9e-47a3-a8b1-cbd76daa7dc9.gif)
 
 PHP: [sno:1, title: "Title", description: "Description"]
 
